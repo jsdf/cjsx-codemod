@@ -1,0 +1,19 @@
+{
+  "name": "cjsx-codemod",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cjsx-codemod": "./cjsx-codemod.sh"
+  },
+  "author": "James Friend <james@jsdf.co> (http://jsdf.co/)",
+  "license": "ISC",
+  "dependencies": {
+    "coffee-react-transform": "^5.0.0",
+    "jscodeshift": "^0.3.29",
+    "nomnom": "^1.8.1"
+  }
+}
